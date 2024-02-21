@@ -1,0 +1,33 @@
+/* components/EmployeeSlogan.css */
+
+.slogan-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3498db; /* Adjust the background color as needed */
+  color: #fff;
+  text-align: center;
+}
+
+.slogan-text {
+  font-size: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* components/EmployeeSlogan.css */
+
+.slogan-container {
+  /* Existing styles... */
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
